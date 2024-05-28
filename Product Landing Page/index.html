@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <div class="main">
+      <header id="header">
+        <div class="logo">
+          <img
+            id="header-img"
+            src="./assets/images/Company-logo.jpg"
+            alt="company-logo"
+          />
+        </div>
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#about-us">About Us</a></li>
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+            <li>
+              <a class="nav-link" href="#product-newsletter">Newsletter</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="container">
+        <section id="about-us">
+          <div class="background-photo about">
+            <p>
+              With MORE than 40 YEARS of experience in designing and
+              manufacturing cameras, we are passionate and committed to make the
+              BEST cameras for YOU at SharpShoot Cameras. Rest assured as we
+              WILL provide the BEST photography experience you can ever
+              IMAGINED!
+            </p>
+          </div>
+        </section>
+
+        <section id="features">
+          <div class="grid-box">
+            <div class="icon">
+              <i class="fas fa-check"></i>
+            </div>
+            <div class="desc">
+              <h2>High Quality</h2>
+              <p>
+                We use the best materials and engineers. You can be assured that
+                our cameras are a step ahead in terms of functions and
+                capabilities.
+              </p>
+            </div>
+          </div>
+          <div class="grid-box">
+            <div class="icon">
+              <i class="fas fa-check"></i>
+            </div>
+            <div class="desc">
+              <h2>Reliability</h2>
+              <p>
+                Our dedicated and passionate Quality Assurance Team ensures that
+                our cameras are build to last very long.
+              </p>
+            </div>
+          </div>
+          <div class="grid-box">
+            <div class="icon">
+              <i class="fas fa-check"></i>
+            </div>
+            <div class="desc">
+              <h2>Fast Shipping and Excellent After-Sales Support</h2>
+              <p>
+                We shipped our cameras once it is built and tested. We provide
+                technical support if you do run into problems and fuss-free
+                refunds if you are not satisfied with our cameras.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="product-video">
+          <video id="video">
+            <source src="https://www.youtube.com/watch?v=ncOVwaOoAXo" />
+          </video>
+        </section>
+
+        <section id="pricing">
+          <div class="product" id="instant">
+            <div class="label">Instant Camera</div>
+            <h2>$299</h2>
+            <ol>
+              <li>Easy to use</li>
+              <li>Print and deliver photographs immediately</li>
+              <li>Recommended for everyday users (e.g. capture a moment)</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="compact">
+            <div class="label">Compact Camera</div>
+            <h2>$699</h2>
+            <ol>
+              <li>Lightweight</li>
+              <li>Simple to use</li>
+              <li>Recommended for casual photographers / hobbyists</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="dslr">
+            <div class="label">DSLR Camera</div>
+            <h2>$3,399</h2>
+            <ol>
+              <li>Powerful imaging capabilities</li>
+              <li>Comes with a wide array of high quality lens</li>
+              <li>Recommended for professional photographers</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+        </section>
+        <section id="product-newsletter">
+          <h2>
+            Subscribe to our newsletter for product guides and new model
+            releases!
+          </h2>
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input
+              name="email"
+              id="email"
+              type="email"
+              placeholder="Enter your email address"
+              required=""
+            />
+            <input id="submit" type="submit" value="Subscribe" class="btn" />
+          </form>
+        </section>
+        <footer>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <span>Copyright 2024, SharpShoot Cameras</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
